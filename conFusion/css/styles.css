@@ -12,7 +12,7 @@
 
 .footer {
   background-color: #D1C4E9;
-  margin: 0px auto;
+  margin: 0px -30px;
   padding: 20px 0px 20px 0px;
 }
 
@@ -25,15 +25,31 @@
 
 address{
     font-size:80%;
-    margin:0px;
+    margin:0px 0px 20px 0px;
     color:#0f0f0f;
 }
 
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
+    font-size:16px;
 }
 
 .navbar-inverse {
      background-color: #512DA8;
+}
+@media (min-width: 376px){
+    label.radio-inline {
+        display:block;
+        text-align:right;
+    }
+}
+
+
+#input-time::placeholder {
+    color:grey;
+}
+
+#input-date::placeholder {
+    color:grey;
 }
