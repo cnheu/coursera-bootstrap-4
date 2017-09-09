@@ -46,6 +46,10 @@ body{
     padding: 15px;
 }
 
+.card {
+    margin-bottom: 15px;
+}
+
 @media (min-width: 376px){
     label.radio-inline {
         display:block;
