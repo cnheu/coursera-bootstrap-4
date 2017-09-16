@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,8 @@
   },
   "homepage": "https://github.com/cnheu/cs1#readme",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.5.3"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
