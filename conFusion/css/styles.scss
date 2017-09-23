@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$floralwhite: #fffaf0;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -76,16 +77,16 @@ body{
 
 // Reserve Table Modal Styling
 .modal-header {
-    background-color: #512DA8;
-    color: #fffaf0;
+    background-color: $background-dark;
+    color: $floralwhite;
 
     .close {
-        color: #fffaf0;
+        color: $floralwhite;
     }
 }
 .modal-body {
-    background-color: #D1C4E9;
+    background-color: $background-pale;
 }
 .modal-footer {
-    background-color: #9575CD;
+    background-color: $background-light;
 }
